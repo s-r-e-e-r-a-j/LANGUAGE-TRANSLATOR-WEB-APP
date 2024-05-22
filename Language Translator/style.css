@@ -1,0 +1,119 @@
+
+  *{
+    box-sizing: border-box;
+  }
+  .container{
+    width:100%;
+    height:100vh;
+    background:rgba(11,12,96,0.456);
+  }
+  .container1{
+    width:60%;
+    height:64%;
+    background: lightskyblue;
+    position:absolute;
+    left:20%;
+    top:17%;
+    border-radius:6px;
+
+  }
+  #writingarea{
+    width:400px;
+    height:300px;
+    position:relative;
+    padding:20px;
+    left:40px;
+    border:4px solid cyan;
+    outline:none;
+    border-radius:6px;
+    font-size: 1rem;
+  }
+  #outputarea{
+    width:400px;
+    height:300px;
+    background: white;
+    padding:20px;
+    position:absolute;
+    left:446px;
+    bottom:96px;
+    border:4px solid cyan;
+    border-radius:6px;
+    font-size: 1rem;
+    word-break: break-all;
+  }
+  .heading{
+    font-family: sans-serif;
+    color:green;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+  .heading::first-letter{
+    color:red;
+  }
+  
+
+  #inputlang{
+    width:400px;
+    height:20px;
+    position:relative;
+    left:40px;
+    text-align: center;
+    background: cyan;
+    font-size: 1rem;
+    
+
+  }
+  #outputlang{
+    width:400px;
+    height:20px;
+    position:relative;
+    top:24px;
+    left:40px;
+    text-align: center;
+    background: cyan;
+    font-size: 1rem;
+    
+  }
+  #inputlang:hover{
+    background: black;
+    color:red;
+  }
+  #outputlang:hover{
+    background: black;
+    color:red;
+  }
+  #translatebtn{
+    padding:4px 4px;
+    width:400px;
+    position:relative;
+    left:40px;
+    top:37px;
+    background:seagreen;
+    color:cyan;
+    font-size: 1rem;
+    cursor:pointer;
+  
+    
+  }
+  #spkbtn{
+    padding:4px 4px;
+    width:400px;
+    position:relative;
+    left:40px;
+    top:7px;
+    background: seagreen;
+    color:cyan;
+    font-size: 1rem;
+    cursor:pointer;
+  }
+  #translatebtn:active{
+    background: rgba(12, 54, 87, 1.0);
+  }
+  #spkbtn:active{
+    background: rgba(10, 20, 56, 1.0);
+  }
+
+
+
+
