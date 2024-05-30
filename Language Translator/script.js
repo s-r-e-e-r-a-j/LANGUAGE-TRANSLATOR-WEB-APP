@@ -1,4 +1,4 @@
-//coded by sreeraj
+    //coded by sreeraj
    var writingarea=document.querySelector("#writingarea");
   var outputarea=document.querySelector("#outputarea");
   var inputlang=document.querySelector("#inputlang");
