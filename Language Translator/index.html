@@ -1,31 +1,27 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Language Translator </title>
-
-<link rel="stylesheet" href="style.css">
-<script defer src="script.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-
-
 <body>
- <div class="container">
-  <div class="container1">
-    <h1 class="heading">Language Translator WebApp</h1>
-    <textarea id="writingarea"></textarea>
-    <div id="outputarea"></div>
-    <select id="outputlang">
-      <option>Choose Language</option>
-    </select>
-    <select id="inputlang">
-      <option>Choose Language</option>
-    </select>
-    <button id="translatebtn">Translate</button>
-    <button id="spkbtn">Speak</button>
+  <div class="container">
+    <div class="container1">
+      <h1 class="heading">Language Translator WebApp</h1>
+      <textarea id="writingarea" placeholder="Enter text here..."></textarea>
+      <div id="outputarea"></div>
+      <select id="inputlang">
+        <option disabled selected>Choose Input Language</option>
+      </select>
+      <select id="outputlang">
+        <option disabled selected>Choose Output Language</option>
+      </select>
+      <button id="translatebtn">Translate</button>
+      <button id="spkbtn">Speak</button>
+    </div>
   </div>
-</div>
- 
-  </body>
+</body>
 </html>
