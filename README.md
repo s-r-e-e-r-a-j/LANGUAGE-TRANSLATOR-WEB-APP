@@ -1,3 +1,4 @@
 
-Language Translator Made With Html Css And Javascript![Screenshot 2024-05-26 163432](https://github.com/C0DEGamer/LANGUAGE-TRANSLATOR-WEB-APP/assets/154326486/b0d864a6-e20d-4ced-8ec9-a077efc5713b)
+Language Translator Made With Html Css And Javascript
+<img width="1331" height="903" alt="Screenshot 2025-09-20 145513" src="https://github.com/user-attachments/assets/d6344f71-c2ef-430e-936a-3447cc97d951" >
 
